@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OpenClaw 中文文档</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css" />
+</head>
+<body>
+  <div id="app">加载中…</div>
+  <script>
+    window.$docsify = {
+      name: 'OpenClaw 中文文档',
+      loadSidebar: true,
+      loadNavbar: true,
+      subMaxLevel: 3,
+      homepage: '/index.md',
+      search: 'auto',
+      formatUpdated: '{YYYY}-{MM}-{DD}',
+      notFoundPage: '_404.md',
+      relativePath: false,
+      requestHeaders: { 'Cache-Control': 'no-cache' },
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+</body>
+</html>
