@@ -9,6 +9,7 @@
 
 - **帮助**
   - [帮助](/help/index)
+  - [入门向导常见问题](/help/onboarding-faq)
   - [故障排除](/help/troubleshooting)
 
 - **网关**
